@@ -1,0 +1,128 @@
+.liste1{
+    background-color: rgba(38, 79, 155, 0.582);
+   color: white;
+    font-size: 25px;
+   padding: 43px;
+   width: 97%;
+
+}
+
+
+
+ 
+a{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+   font-size: 20px;
+}
+
+
+
+
+.mouma{
+  position: relative;
+ 
+  font-size: 50px;
+  top: -20px;
+ 
+  text-align: center;
+}
+
+#flexbox-ville{
+   
+   
+    gap: 30px;
+    position: relative;
+    top: -100px;
+
+}
+
+#ville:hover{
+    width: 70%;
+    height: 500px;
+    transition: 1s;
+}
+
+#ville{
+    transition: 1s;
+    background-size: cover;
+    width: 60%;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    right: -250px;
+    border: 5px solid black;
+    border-radius: px;
+    font-size: -100px;
+    color: orange;
+    text-shadow: 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'pacifico';
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    
+}
+
+.b1{
+    background-image:url("https://www.snaidero-st-tropez.fr/assets/images/cucine-design-moderne-way-materia-snaidero-4-906x647.jpg");
+    background-repeat: no-repeat;
+
+  
+ 
+}
+
+.polo{
+    font-size: 20px;
+    position: relative;
+    top:150px;
+    right: -1000px;
+    padding: 10px;
+
+}
+
+
+.texte{
+    font-size: 20px;
+    width: 900px;
+    position: relative;
+    top: 100px;
+    padding: auto;
+   right: -250px;
+    display:block;
+    
+    font-family:"Oswald" ;
+}
+
+
+.decal{
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+    right: -200px;
+    color: black;
+}
+
+.recherch{
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 12px;
+    padding: 5px;
+   
+    border-radius: 10px;
+    text-align:start;
+}
+
+.encore{
+    position: relative;
+    right: -10px;
+    color: black;
+}
+
+footer{
+    padding: 100px;
+}
