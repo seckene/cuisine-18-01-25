@@ -1,4 +1,15 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+html,body{
+overflow-x: hidden;
+}
 
 
 .liste1{
@@ -22,18 +33,6 @@ a{
 }
 
 
-.recherch{
-    background-color: white;
-    border: 1px solid black;
-    width: 300px;
-    position: relative;
-    top: -65px;
-    right: -1020px;
-    padding: 8px;
-   
-    border-radius: 10px;
-    text-align:start;
-}
 
 
 .mouma{
@@ -187,4 +186,101 @@ justify-content: space-between;
 }
 footer{
     padding: 100px;
+}
+
+@media (min-width:350px) and (max-width:400px){
+    
+
+
+.liste1{
+    background-color:  rgb(0, 109, 128);
+   color: white;
+   
+   padding: 20px;
+   width: 100%;
+
+}
+
+
+
+ 
+a{
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+   font-size: 8px;
+   
+}
+.mouma{
+    
+    position: relative;
+    right: 170px;
+    top: 50px;
+    font-size: 40px;
+    color: black;
+    border-radius: 0px;
+    padding: 30px;
+    width: 700px;
+    font-family: "Sevillana";
+  text-align: center;
+  
+  }
+  #flexbox-ville{
+   
+    display: grid;
+    grid-template-columns: repeat(6,5fr );
+    gap: 60px;
+    
+    position: relative;
+    top: 50px;
+    right: -30px;
+   display: block;
+}
+#ville{
+
+    background-size: cover;
+    width: 85%;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: px;
+    font-size: 50px;
+   margin-top: 60px;
+    text-shadow: 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'pacifico';
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    
+}
+.suite{
+    color: black;
+    position: relative;
+top: 85px;
+    right: -20px;
+    font-size: 15px;
+}
+
+#ville:hover{
+ 
+display: none;}
+
+
+
+            .btn2{
+                width: 40px;position: relative;
+right: 40px;padding:10px;top: 160px ;border-radius: 20px; background-color:  rgb(0, 109, 128);border: none; 
+            }
+     
+.btn1{
+    width: 40px;position: relative;
+    right: -290px;
+    padding:10px;
+    top: 160px ;
+    border-radius: 20px;
+     background-color: rgb(0, 109, 128) ;
+    border: none;
+}
+
+
 }
