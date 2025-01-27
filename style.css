@@ -45,7 +45,7 @@ z-index: 1;
     top: 0px;
     padding: 35px;
     width: 100%;
-   background-color: rgba(95, 92, 92, 0.281);
+  
    
  }
 
@@ -712,7 +712,7 @@ html,body{
                         top: 0px;
                         padding: 10px;
                      background-color: none;
-        
+        right: 10;
                        
                      }
                      .image{
@@ -730,15 +730,20 @@ html,body{
                     
                      .osc{
                         position: relative;
-                        top: -10px;
-                        left:5px;
+                        top: 10px;
+                        height: 250px;
+                    visibility: hidden;
+                        display: flex;
+                       flex-direction: column;
+                       background-color: black;
+                       width: 30%;
                      }
                      a{
                         color:white;
                        display: flex;
                        display: inline;
-                       
-                       font-size: 8px;
+                       padding: 10px;
+                       font-size: 10px;
                       text-decoration: none;
                      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                   
@@ -754,7 +759,13 @@ html,body{
                         padding: 6px;
                         text-align:start;
                     }
-                    
+                    svg {
+                        width: 30px;
+                        position: relative;
+                        top: 10px;
+                        right: -5px;
+                        visibility: visible;
+                    }
                     
                     #LZ{
                         position: relative;

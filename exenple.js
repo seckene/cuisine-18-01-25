@@ -44,4 +44,10 @@ window.addEventListener("mousedown", () => {
 
  function changeslide() {
   document.getElementById("slide").src="images.jpg";
- }
+ };
+const svg =document.querySelector("svg")
+ const inp=document.querySelector(".osc");
+ console.log(inp);
+ svg.addEventListener("click",() =>{
+  inp.style.visibility="visible";
+  });     
