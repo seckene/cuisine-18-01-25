@@ -51,3 +51,5 @@ const svg =document.querySelector("svg")
  svg.addEventListener("click",() =>{
   inp.style.visibility="visible";
   });     
+
+  
