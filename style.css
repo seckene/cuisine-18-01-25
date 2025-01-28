@@ -426,7 +426,7 @@ right: 10;
                 color:white;
                display: flex;
                display: inline;
-               padding: 15px;
+               padding: 20px;
                font-size: 10px;
               text-decoration: none;
              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -439,7 +439,7 @@ right: 10;
                 visibility: visible;
                 position: relative;
                 top: -50px;
-                right: -190px;
+                right: -250px;
                 color: white;
                 font-size: 40px;
               width: 45%;
@@ -454,10 +454,10 @@ right: 10;
             .recherche{
                 background-color: white;
                 border: 1px solid black;
-                width: 275px;
+                width: 80%;
                 position: relative;
                 top: -150px;
-                left: 5px;
+                left: 15px;
                 padding: 6px;
                 text-align:start;
             }
@@ -480,7 +480,7 @@ right: 10;
 
 
                 font-size: 20px;
-                width: 300px;
+                width: 80%;
                position: relative;
               right:-40px;
               top: -200px;
@@ -492,7 +492,7 @@ right: 10;
                 background-image: url("https://www.nature-bois-concept.com/boutique/img/cms/Presta_blog/Cuisine%20d-%C3%A9t%C3%A9/cuisine%20ext%20florian%20dussartBLOG.jpeg");
             background-repeat: no-repeat;
             background-size: cover;
-            width: 1%;
+            width: 2%;
             height: 50px;
             padding: 21vh;
             position: relative;
@@ -510,7 +510,7 @@ right: 10;
                 top: -250px;
                 font-size: 20px;
                 width: 300px;
-                right: -40px;
+                right: -80px;
                
                 font-family:"Oswald" ;
             }
@@ -522,7 +522,7 @@ right: 10;
                 gap: 30px;
                 position: relative;
                 top: -150px;
-                right:-15px;
+                right:-50px;
                 display: flex;
                 flex-wrap: wrap;
             }
@@ -530,8 +530,8 @@ right: 10;
             #ville{
             
                 background-size: cover;
-                width: 85%;
-                height: 200px;
+                width: 80%;
+                height: 220px;
                 border: 5px solid white;
               
                 font-size: 50px;
@@ -569,7 +569,7 @@ right: 10;
             p10{
                 position: relative;
                 top: 100px;
-                right: -30px;
+                right: -100px;
                 font-size: 15px;
                 color: white;
                 z-index: 1;
@@ -589,8 +589,8 @@ right: 10;
             .suite{
                 color: black;
                 position: relative;
-            top: 2700px;
-                right: -40px;
+            top: 2790px;
+                right: -80px;
                 font-size: 15px;
 text-decoration: underline;
                 width: 400px;
