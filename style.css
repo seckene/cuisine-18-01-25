@@ -946,11 +946,11 @@ html,body{
                     h6{
                         visibility: visible;
                         position: relative;
-                        top: -50px;
-                        right: -190px;
+                        top: 130px;
+                        right: -100px;
                         color: white;
                         font-size: 40px;
-                      width: 45%;
+                      width: 75%;
                         user-select: none;text-decoration: underline ;
                         font-family: "Ballet";
                         
@@ -962,14 +962,13 @@ html,body{
                     .recherche{
                         background-color: white;
                         border: 1px solid black;
-                        width: 275px;
+                        width: 60%;
                         position: relative;
                         top: -150px;
                         left: 5px;
                         padding: 6px;
                         text-align:start;
-                        border-top-left-radius: 10px;
-                        border-bottom-left-radius: 10px;
+                      
                         background-color: white;
                         border: 2px solid grey;
                         border-right:none ;
@@ -982,15 +981,26 @@ html,body{
                         visibility: visible;
                     }
                     
+                    .la14{
+                        position: relative;
+                        top: -460px;
+                        right: -60px;
+                        visibility: hidden;
+                    }
+
+
+
                     #LZ{
                         position: relative;
                         right: 0px;
-                        width: 70px;
+                        width: 75px;
                         padding: 6px;
                         top: -150px;
                         background-color: white;
                        border: 2px solid grey;
                        border-left: none;
+                       border-top-right-radius: 10px;
+                       border-bottom-right-radius: 10px;
                     }
                     .texte{
         
