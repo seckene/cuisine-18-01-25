@@ -18,7 +18,7 @@ html,body{
     font-size: 25px;
    padding: 43px;
    width: 97%;
-position: fixed;
+position: absolute;
 }
 
 
@@ -134,15 +134,6 @@ a{
 
  
 
- .polo{
-    font-size: 10px;
-    position: relative;
-    top:120px;
-    right: -1280px;
-    padding: 10px;
-    background-color: rgba(38, 79, 155, 0.582); 
-    border-radius: 20px;
-}
 
 .suite{
     color: black;
@@ -196,7 +187,7 @@ footer{
 
 
     .liste1{
-        background-color:  rgb(0, 109, 128);
+        background-color:  rgb(0, 0, 0);
        color: white;
        
        padding: 20px;
@@ -270,20 +261,7 @@ footer{
     
     
     
-                .btn2{
-                    width: 40px;position: relative;
-    right: 40px;padding:10px;top: 260px ;border-radius: 20px; background-color:  rgb(0, 109, 128);border: none; 
-                }
-         
-    .btn1{
-        width: 40px;position: relative;
-        right: -290px;
-        padding:10px;
-        top: 260px ;
-        border-radius: 20px;
-         background-color: rgb(0, 109, 128) ;
-        border: none;
-    }
+  
     
     
     }
