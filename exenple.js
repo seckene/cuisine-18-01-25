@@ -50,6 +50,14 @@ const svg =document.querySelector("svg")
  console.log(inp);
  svg.addEventListener("click",() =>{
   inp.style.visibility="visible";
+  lele.style.visibility="visible";
   });     
 
-  
+
+  const lele =document.querySelector(".lele");
+  console.log(lele)
+
+  lele.addEventListener("click",() =>{
+    inp.style.visibility="hidden";
+    lele.style.visibility="hidden";
+  })

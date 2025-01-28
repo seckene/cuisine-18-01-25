@@ -20,9 +20,16 @@ body{
     position: relative;
   
 }
+ 
  h6{
     visibility: hidden;
  }
+ .lele{
+    visibility: hidden;
+   }
+ .buloc{
+ visibility: hidden;
+}
 a{
     color:white;
     padding: 20px;
@@ -55,7 +62,7 @@ z-index: 1;
 
  .osc{
     position: relative;
-    top: -30px;
+    top: -40px;
     left: -20px;
     
     
@@ -141,17 +148,17 @@ visibility: hidden;
 #flexbox-ville{
    
     display: grid;
-    grid-template-columns: repeat(6,4fr );
+    grid-template-columns: repeat(6,2fr );
     gap: 30px;
     position: relative;
     top: -150px;
-    right:0px;
+    right:200px;
 }
 
 #ville{
 
     background-size: cover;
-    width: 85%;
+    width: 150%;
     height: 200px;
     border: 5px solid white;
   
@@ -317,7 +324,7 @@ p10{
 .suite{
     color: black;
     position: relative;
-top: 832px;
+top: 1100px;
     right: -850px;
     font-size: 20px;
     font-family: "Arial";
@@ -449,7 +456,15 @@ right: 10;
              }
 
 
-
+             .lele{
+                margin-left: 103px;
+                
+                   width: 30px;
+                   padding: 5px;
+                  
+                   border: none;
+                    
+               }
 
             .recherche{
                 background-color: white;
@@ -606,6 +621,11 @@ text-decoration: underline;
                 transition: 1s;
             
             }
+            .buloc{
+                margin-left: 70px;
+                font-family:'Times New Roman', Times, serif;
+                visibility: visible;
+            }
             
     }
 
@@ -694,7 +714,7 @@ overflow-x: hidden !important;
                 .recherche{
                     background-color: white;
                     border: 1px solid black;
-                    width: 60%px;
+                    width: 80%;
                     position: relative;
                     top: -150px;
                     left: 5px;
@@ -814,6 +834,15 @@ overflow-x: hidden !important;
                     color: white;
                     z-index: 1;
                 }
+                .lele{
+                    margin-left: 93px;
+                    
+                       width: 30px;
+                       padding: 5px;
+                      
+                       border: none;
+                        
+                   }
                 
                 .ppp{
                     position: relative;
@@ -846,7 +875,11 @@ overflow-x: hidden !important;
                     transition: 1s;
                 
                 }
-         
+                .buloc{
+                    margin-left: 70px;
+                    font-family:'Times New Roman', Times, serif;
+                    visibility: visible;
+                }
         }
     
                 
@@ -935,6 +968,11 @@ html,body{
                         left: 5px;
                         padding: 6px;
                         text-align:start;
+                        border-top-left-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                        background-color: white;
+                        border: 2px solid grey;
+                        border-right:none ;
                     }
                     svg {
                         width: 30px;
@@ -948,8 +986,11 @@ html,body{
                         position: relative;
                         right: 0px;
                         width: 70px;
-                        padding: 5px;
+                        padding: 6px;
                         top: -150px;
+                        background-color: white;
+                       border: 2px solid grey;
+                       border-left: none;
                     }
                     .texte{
         
@@ -1031,6 +1072,8 @@ html,body{
                     height: 100px;
                    
                     }
+
+                   
                     
                     .ggg{
                         
@@ -1040,6 +1083,11 @@ html,body{
                         width: 100%;
                     }
                   
+                    .buloc{
+                        margin-left: 70px;
+                        font-family:'Times New Roman', Times, serif;
+                        visibility: visible;
+                    }
 
                     p10{
                         position: relative;
@@ -1053,7 +1101,7 @@ html,body{
                     .ppp{
                         position: relative;
                         top: 30px;
-                        right:75px;
+                        right:10px;
                         display: inline;
                         padding: 0px;
                         font-size: 8px;
@@ -1064,8 +1112,8 @@ html,body{
                     .suite{
                         color: black;
                         position: relative;
-                    top: 2700px;
-                        right: -40px;
+                    top: 3000px;
+                        right: -30px;
                         font-size: 15px;
         text-decoration: underline;
                         width: 400px;
@@ -1081,6 +1129,15 @@ html,body{
                         transition: 1s;
                     
                     }
+                    .lele{
+                        margin-left: 73px;
+                        
+                           width: 30px;
+                           padding: 5px;
+                          
+                           border: none;
+                            
+                       }
              
             }
         
@@ -1186,6 +1243,15 @@ html,body{
                             padding: 5px;
                             top: -150px;
                         }
+                        .lele{
+                            margin-left: 73px;
+                            
+                               width: 30px;
+                               padding: 5px;
+                              
+                               border: none;
+                                
+                           }
                         .texte{
             
             
@@ -1315,6 +1381,11 @@ html,body{
                           
                             transition: 1s;
                         
+                        }
+                        .buloc{
+                            margin-left: 70px;
+                            font-family:'Times New Roman', Times, serif;
+                            visibility: visible;
                         }
                  
                 }
