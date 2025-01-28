@@ -377,16 +377,15 @@ color: black;
    font-size: 20px;
 }
 
-@media  (max-width:451px){
+@media  (min-width:451px) and (max-width:500px){
     *{
         padding: 0;
         margin: 0;
         box-sizing: border-box;}
    
 html,body{
-    overflow-x: hidden;
+overflow-x: hidden !important;
 }
-
 
 
         .liste{ 
@@ -395,52 +394,95 @@ html,body{
                 position: absolute;
               visibility: visible;
                 top: 0px;
-                padding: 30px;
+                padding: 10px;
              background-color: none;
-
+right: 10;
                
              }
+             .image{
+                background-image: url("https://ebainteriors.com/assets/blog/64-projet-sybil/01-petite-cuisine-ouverte-bleue-blanche-eba.jpg");   
+                    padding: 10%;
+                    height: 450px;
+                    background-repeat: no-repeat;
+                    position: relative;
+                   background-size: cover;
+                
+                top: -180px;
+                border: 2px solid black;
+                
+                }
             
              .osc{
                 position: relative;
-                top: -10px;
-                left: -20px;
+                top: -60px;
+                height: 600px;
+            visibility: hidden;
+                display: flex;
+               flex-direction: column;
+               background-color: black;
+               width: 30%;
              }
              a{
                 color:white;
-                padding: 0px;
+               display: flex;
+               display: inline;
+               padding: 15px;
                font-size: 10px;
               text-decoration: none;
              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-           margin-left: 10px;
+          
                
             }
+
+
+            h6{
+                visibility: visible;
+                position: relative;
+                top: -50px;
+                right: -190px;
+                color: white;
+                font-size: 40px;
+              width: 45%;
+                user-select: none;text-decoration: underline ;
+                font-family: "Ballet";
+                
+             }
+
+
+
+
             .recherche{
                 background-color: white;
                 border: 1px solid black;
-                width: 315px;
+                width: 275px;
                 position: relative;
                 top: -150px;
-                left: 20px;
+                left: 5px;
                 padding: 6px;
                 text-align:start;
             }
-            
+            svg {
+                width: 30px;
+                position: relative;
+                top: 10px;
+                right: -5px;
+                visibility: visible;
+            }
             
             #LZ{
                 position: relative;
-                right: -15px;
-                width: 100px;
+                right: 0px;
+                width: 70px;
                 padding: 5px;
                 top: -150px;
             }
             .texte{
 
 
-                font-size: 25px;
-                width: 400px;
+                font-size: 20px;
+                width: 300px;
                position: relative;
-              right:-50px;
+              right:-40px;
               top: -200px;
               font-family:"Oswald";
               display: block;
@@ -450,12 +492,12 @@ html,body{
                 background-image: url("https://www.nature-bois-concept.com/boutique/img/cms/Presta_blog/Cuisine%20d-%C3%A9t%C3%A9/cuisine%20ext%20florian%20dussartBLOG.jpeg");
             background-repeat: no-repeat;
             background-size: cover;
-            width: 10%;
+            width: 1%;
             height: 50px;
-            padding: 38vh;
+            padding: 21vh;
             position: relative;
             top: -170px;
-            right: -12px;
+            right: -10px;
             display: flex;
             justify-content: center;
             border: 4px solid black;
@@ -467,8 +509,8 @@ html,body{
                 position: relative;
                 top: -250px;
                 font-size: 20px;
-                width: 400px;
-                right: -10px;
+                width: 300px;
+                right: -40px;
                
                 font-family:"Oswald" ;
             }
@@ -480,7 +522,7 @@ html,body{
                 gap: 30px;
                 position: relative;
                 top: -150px;
-                right:-40px;
+                right:-15px;
                 display: flex;
                 flex-wrap: wrap;
             }
@@ -504,45 +546,65 @@ html,body{
             }
             .pieds{
    
-                padding: 40px;
+                padding: 20px;
                 width: 100%;
                 position: relative;
                 top: 60px;
-                background-color: rgba(23, 119, 74, 0.589);
-            right: 5px
+                background-color: rgba(11, 14, 12, 0.589);
+            right: 5px;
+            display: flex;
+            height: 100px;
+           
             }
             
             .ggg{
-                position: relative;
-                top: -20px;
-                right: -10px;
-                font-size: 15px;
+                
+                font-size: 10px;
                 font-family: "Arial";
                 color: black;
+                width: 100%;
             }
-            
+          
+
+            p10{
+                position: relative;
+                top: 100px;
+                right: -30px;
+                font-size: 15px;
+                color: white;
+                z-index: 1;
+            }
             
             .ppp{
                 position: relative;
-                top: 15px;
-                right: -5px;
+                top: 30px;
+                right:75px;
                 display: inline;
                 padding: 0px;
-                font-size: 15px;
-                color:black;
+                font-size: 8px;
+                color:white;
                 font-family: "Arial";
-                display: none;
+             
             }
             .suite{
                 color: black;
                 position: relative;
-            top: 2400px;
-                right: -70px;
+            top: 2700px;
+                right: -40px;
                 font-size: 15px;
-
-                width: 350px;
+text-decoration: underline;
+                width: 400px;
                 font-family: "Arial";
                 pointer-events: none;
+            }
+            #ville:hover{
+                border: 5px solid black ;
+               width: 90%;
+               position: relative;
+               justify-content: space-between;
+              
+                transition: 1s;
+            
             }
             
     }
@@ -1065,7 +1127,7 @@ html,body{
                             color:white;
                            display: flex;
                            display: inline;
-                           padding: 15px;
+                           padding: 10px;
                            font-size: 10px;
                           text-decoration: none;
                          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -1078,10 +1140,10 @@ html,body{
                             visibility: visible;
                             position: relative;
                             top: -50px;
-                            right: -190px;
+                            right: -150px;
                             color: white;
                             font-size: 40px;
-                          width: 45%;
+                          width: 50%;
                             user-select: none;text-decoration: underline ;
                             font-family: "Ballet";
                             
@@ -1093,7 +1155,7 @@ html,body{
                         .recherche{
                             background-color: white;
                             border: 1px solid black;
-                            width: 275px;
+                            width: 70%;
                             position: relative;
                             top: -150px;
                             left: 5px;
@@ -1121,7 +1183,7 @@ html,body{
                             font-size: 20px;
                             width: 300px;
                            position: relative;
-                          right:-40px;
+                          right:-10px;
                           top: -200px;
                           font-family:"Oswald";
                           display: block;
@@ -1147,9 +1209,9 @@ html,body{
                         .texte1{
                             position: relative;
                             top: -250px;
-                            font-size: 20px;
+                            font-size: 18px;
                             width: 300px;
-                            right: -40px;
+                            right: -5px;
                            
                             font-family:"Oswald" ;
                         }
@@ -1161,7 +1223,7 @@ html,body{
                             gap: 30px;
                             position: relative;
                             top: -150px;
-                            right:-15px;
+                            right:-5px;
                             display: flex;
                             flex-wrap: wrap;
                         }
@@ -1208,7 +1270,7 @@ html,body{
                         p10{
                             position: relative;
                             top: 100px;
-                            right: -30px;
+                            right: -10px;
                             font-size: 15px;
                             color: white;
                             z-index: 1;
@@ -1217,7 +1279,7 @@ html,body{
                         .ppp{
                             position: relative;
                             top: 30px;
-                            right:75px;
+                            right:55px;
                             display: inline;
                             padding: 0px;
                             font-size: 8px;
@@ -1228,9 +1290,9 @@ html,body{
                         .suite{
                             color: black;
                             position: relative;
-                        top: 2700px;
-                            right: -40px;
-                            font-size: 15px;
+                        top: 2400px;
+                            right: -10px;
+                            font-size: 13px;
             text-decoration: underline;
                             width: 400px;
                             font-family: "Arial";
