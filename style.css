@@ -948,8 +948,8 @@ html,body{
                        display: flex;
                        
                        display: inline;
-                       padding: 15px;
-                       font-size: 10px;
+                       padding: 10px;
+                       font-size: 15px;
                       text-decoration: none;
                      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                   
@@ -1090,10 +1090,10 @@ html,body{
                         width: 100%;
                         position: relative;
                         top: 60px;
-                        background-color: rgba(11, 14, 12, 0.589);
+                        background-color:rgba(0, 0, 0, 0.795);
                     right: 5px;
                     display: flex;
-                    height: 100px;
+                    height: 150px;
                    
                     }
 
@@ -1109,7 +1109,7 @@ html,body{
                   
                     .buloc{
                         margin-left: 70px;
-                        font-family:'Times New Roman', Times, serif;
+                        font-family: "Dancing Script";
                         visibility: visible;
                     }
 
@@ -1124,11 +1124,11 @@ html,body{
                     
                     .ppp{
                         position: relative;
-                        top: 30px;
+                        top: 50px;
                         right:10px;
-                        display: inline;
+                        display: block;
                         padding: 0px;
-                        font-size: 8px;
+                        font-size: 13px;
                         color:white;
                         font-family: "Arial";
                      
@@ -1163,7 +1163,7 @@ html,body{
                             
                        }
              .pub{
-                background-image: url("https://t3.ftcdn.net/jpg/00/29/67/32/360_F_29673221_IHdgH3JhWcUkUl7EYb6pU68vnxz9toU1.jpg");
+                background-image: url("https://i.etsystatic.com/27779988/r/il/02f628/3377921195/il_570xN.3377921195_lg48.jpg");
                 background-repeat: no-repeat;
                 width: 100%;
                 padding: 150px;
@@ -1182,8 +1182,9 @@ html,body{
                         top: -700px;
                         left:150px ;
                         color: blue;
+                        
                        }
-                      
+                   
             }
         
 
