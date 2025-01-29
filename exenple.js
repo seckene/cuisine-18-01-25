@@ -76,10 +76,20 @@ const giga= document.querySelector(".giga");
 console.log(giga)
 
 
+const pub =document.querySelector(".pub");
+console.log(pub)
 
+
+const texte1 =document.querySelector(".texte1");
+console.log(texte1)
 
   titre15.addEventListener("click",() =>{
     fait.style.visibility="visible"
     titre15.style.top = "40"+"px"
     giga.style.top= "300px"
+    pub.style.top="100px"
+    texte1.style.height="1700px";
   })
+
+
+  

@@ -1049,9 +1049,9 @@ html,body{
                         position: relative;
                         top: -250px;
                         font-size: 20px;
-                        width: 300px;
+                        width: 80%;
                         right: -40px;
-                       
+                       height: 1000px;
                         font-family:"Oswald" ;
                     }
         
@@ -1162,8 +1162,17 @@ html,body{
                            border: none;
                             
                        }
-             
-
+             .pub{
+                background-image: url("https://t3.ftcdn.net/jpg/00/29/67/32/360_F_29673221_IHdgH3JhWcUkUl7EYb6pU68vnxz9toU1.jpg");
+                background-repeat: no-repeat;
+                width: 100%;
+                padding: 150px;
+                position: relative;
+                top: -650px;
+               
+               right: 10px;
+             }
+          
                        .fait{
                         visibility: hidden;
                        }
@@ -1174,10 +1183,7 @@ html,body{
                         left:150px ;
                         color: blue;
                        }
-                       .giga{
-                        position: relative;
-                        top: -700px;
-                       }
+                      
             }
         
 
