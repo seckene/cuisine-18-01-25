@@ -51,8 +51,10 @@ const svg =document.querySelector("svg")
  svg.addEventListener("click",() =>{
   inp.style.visibility="visible";
   lele.style.visibility="visible";
+  leger.style.visibility="visible";
   });     
-
+const leger =document.querySelector(".leger");
+console.log(leger)
 
   const lele =document.querySelector(".lele");
   console.log(lele)
@@ -60,4 +62,24 @@ const svg =document.querySelector("svg")
   lele.addEventListener("click",() =>{
     inp.style.visibility="hidden";
     lele.style.visibility="hidden";
+    leger.style.visibility="hidden";
+
+  });
+  
+  const fait =document.querySelector(".fait");
+  console.log(fait);
+  const titre15 =document.querySelector("p15");
+  console.log(titre15);
+
+
+const giga= document.querySelector(".giga");
+console.log(giga)
+
+
+
+
+  titre15.addEventListener("click",() =>{
+    fait.style.visibility="visible"
+    titre15.style.top = "40"+"px"
+    giga.style.top= "300px"
   })

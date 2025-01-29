@@ -11,7 +11,8 @@ svg{
 
 body{
     overflow-x: hidden;
-    overflow-y: scroll;
+    
+  
 }
 .bienvenue{
     padding: 90px;
@@ -25,11 +26,14 @@ body{
     visibility: hidden;
  }
  .lele{
+
     visibility: hidden;
    }
  .buloc{
  visibility: hidden;
 }
+
+
 a{
     color:white;
     padding: 20px;
@@ -62,11 +66,16 @@ z-index: 1;
 
  .osc{
     position: relative;
-    top: -40px;
-    left: -20px;
-    
+    top: -35px;
+    left: -30px;
+    width: 100%;
     
  }
+
+.leger{
+    visibility: hidden;
+    
+}
 
 .res{
     top: -0px;
@@ -151,7 +160,7 @@ visibility: hidden;
     grid-template-columns: repeat(6,2fr );
     gap: 30px;
     position: relative;
-    top: -150px;
+    top: -10px;
     right:200px;
 }
 
@@ -255,7 +264,7 @@ transition: 2s;
 
 .texte1{
     position: relative;
-    top: -250px;
+    top: -100px;
     font-size: 20px;
     width: 1000px;
     right: -200px;
@@ -324,7 +333,7 @@ p10{
 .suite{
     color: black;
     position: relative;
-top: 1100px;
+top: 50px;
     right: -850px;
     font-size: 20px;
     font-family: "Arial";
@@ -889,11 +898,14 @@ overflow-x: hidden !important;
             *{
                 padding: 0;
                 margin: 0;
+           
                 box-sizing: border-box;}
            
 html,body{
     overflow-x: hidden !important;
+  
 }
+
 
 
                 .liste{ 
@@ -916,7 +928,7 @@ html,body{
                            background-size: cover;
                         
                         top: -180px;
-                        border: 2px solid black;
+                        border: none;
                         
                         }
                     
@@ -929,10 +941,12 @@ html,body{
                        flex-direction: column;
                        background-color: black;
                        width: 30%;
+                       left: -10px;
                      }
                      a{
                         color:white;
                        display: flex;
+                       
                        display: inline;
                        padding: 15px;
                        font-size: 10px;
@@ -1009,7 +1023,7 @@ html,body{
                         width: 300px;
                        position: relative;
                       right:-40px;
-                      top: -200px;
+                      top: -320px;
                       font-family:"Oswald";
                       display: block;
                     
@@ -1022,7 +1036,7 @@ html,body{
                     height: 50px;
                     padding: 21vh;
                     position: relative;
-                    top: -170px;
+                    top: -300px;
                     right: -10px;
                     display: flex;
                     justify-content: center;
@@ -1122,7 +1136,7 @@ html,body{
                     .suite{
                         color: black;
                         position: relative;
-                    top: 3000px;
+                    top: 50px;
                         right: -30px;
                         font-size: 15px;
         text-decoration: underline;
@@ -1149,6 +1163,21 @@ html,body{
                             
                        }
              
+
+                       .fait{
+                        visibility: hidden;
+                       }
+
+                       p15{
+                        position: relative;
+                        top: -700px;
+                        left:150px ;
+                        color: blue;
+                       }
+                       .giga{
+                        position: relative;
+                        top: -700px;
+                       }
             }
         
 
