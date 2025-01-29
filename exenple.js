@@ -45,6 +45,11 @@ window.addEventListener("mousedown", () => {
  function changeslide() {
   document.getElementById("slide").src="images.jpg";
  };
+
+ const leger =document.querySelector(".leger");
+ console.log(leger)
+
+ 
 const svg =document.querySelector("svg")
  const inp=document.querySelector(".osc");
  console.log(inp);
@@ -52,9 +57,18 @@ const svg =document.querySelector("svg")
   inp.style.visibility="visible";
   lele.style.visibility="visible";
   leger.style.visibility="visible";
+
   });     
-const leger =document.querySelector(".leger");
-console.log(leger)
+
+leger.addEventListener("click",()=>{
+ 
+  la14.style.visibility="visible";
+});
+
+
+const la14=document.querySelector(".la14");
+
+
 
   const lele =document.querySelector(".lele");
   console.log(lele)
@@ -89,6 +103,7 @@ console.log(texte1)
     giga.style.top= "300px"
     pub.style.top="100px"
     texte1.style.height="1800px";
+
   })
 
 
