@@ -21,6 +21,15 @@ body{
     position: relative;
   
 }
+.plon{
+    margin-top: -1.5%;
+}
+
+.jean{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
  h6{
     visibility: hidden;
@@ -66,7 +75,7 @@ z-index: 1;
 
  .osc{
     position: relative;
-    top: -35px;
+    top: -55px;
     left: -30px;
     width: 100%;
     
@@ -272,17 +281,19 @@ transition: 2s;
     font-family:"Oswald" ;
 }
 
-.pieds{
+footer{
    
-    padding: 40px;
-    width: 95%;
+    padding: 5%;
+    width: 100%;
     position: relative;
     top: 60px;
     background-color: rgba(23, 119, 74, 0.589);
 right: 5px;
 
-
 }
+
+
+
 
 .ggg{
     position: relative;
@@ -308,7 +319,7 @@ right: 5px;
 
 p10{
     position: relative;
-    top: 100px;
+    top: -50px;
     right: -10px;
     font-size: 20px;
     text-decoration:underline black;
@@ -603,14 +614,13 @@ html,body{
                         box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
                         
                     }
-                    .footer{
+                    footer{
            
                      
                        
                         background-color:rgba(0, 0, 0, 0.795);
                
                    
-                    height: 25vh;
                    
                     }
                    
