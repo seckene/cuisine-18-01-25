@@ -4,49 +4,67 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+   justify-content: space-around;
+   width: 100%;
+}
 
 .liste{
-    background-color: rgba(38, 79, 155, 0.582);
+    background-color: rgba(0, 0, 0, 0.582);
    color: white;
     padding: 20px;
    width: 100%;
 
 }
 
-
+.interp{
+    display: flex;
+    justify-content: space-evenly;
+}
 
  
 a{
     color: black;
-    
+    justify-content: space-evenly;
     text-decoration: none;
-   font-size: 10px;
+   font-size: 20px;
    
 }
 
 
 
-
-.mouma{
-  position: relative;
- 
-  font-size: 50px;
-  top: -20px;
- 
-  text-align: center;
+#flexbox-ville{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#ville:hover{
-    width: 70%;
-    height: 500px;
-    transition: 1s;
+
+
+
+button{
+    width: 20%;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
 }
 
 #ville{
     transition: 1s;
     background-size: cover;
     width: 60%;
-    height: 400px;
+    height: 80vh;
     position: relative;
     top: 40px;
  
@@ -67,7 +85,7 @@ a{
     
 
 .b1{
-    background-image:url("https://archisdesign.fr/wp-content/uploads/2022/06/archisdesign-cuisine-de-luxe-modele-way-verde-alpi-769x400.jpg");
+    background-image:url("https://www.planetedestock.com/wp-content/uploads/2022/02/67835-673-cuisine-structura.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -87,16 +105,22 @@ a{
 
 .texte{
     font-size: 20px;
-    width: 900px;
+    width: 60%;
     position: relative;
-    top: 100px;
+    top: 150px;
     padding: auto;
 
     display:block;
+    justify-content: center;
+    align-items: center;
     font-family:"Oswald" ;
     color: rgb(66, 66, 66);
 }
-
+#flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .decal{
     font-size: 30px;
@@ -129,3 +153,81 @@ a{
 footer{
     padding: 100px;
 }
+
+
+@media (min-width:300px) and (max-width:400px){
+    *{
+        padding: 0;
+        margin: 0;
+   
+        box-sizing: border-box;}
+   
+
+        #ville{
+            transition: 1s;
+            background-size: cover;
+            width: 100%;
+            height: 300px;
+            position: relative;
+            top: 40px;
+         
+            border: 5px solid black;
+            border-radius: px;
+            font-size: -100px;
+            color: orange;
+            text-shadow: 0 0 30px black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'pacifico';
+            box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+            
+        }
+        a{
+            color: white;
+            justify-content: space-evenly;
+            text-decoration: none;
+           font-size: 8px;
+           
+        }
+
+        button{
+            width: 40%;
+            padding: 20px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 10px;
+        }
+
+        h3{
+font-size: 20px;
+margin-bottom: 10%;
+        }
+        .texte{
+            font-size: 15px;
+            width: 80%;
+            position: relative;
+            top: 150px;
+            padding: auto;
+        
+            display:block;
+            justify-content: center;
+            align-items: center;
+            font-family:"Oswald" ;
+            color: rgb(66, 66, 66);
+        }
+        
+        .liste{
+            background-color: rgb(0, 0, 0);
+           color: white;
+            padding: 30px;
+           width: 100%;
+        
+        }
+        
+    }
+
+
+
+

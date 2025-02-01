@@ -643,9 +643,9 @@ html,body{
                     footer{
            
                      display: flex;
-                       
+                      
                         background-color:rgba(0, 0, 0, 0.795);
-               
+                        right: 3.5%;
                    width: 100%;
                    
                     }
@@ -682,6 +682,7 @@ html,body{
 
 span{
     display: flex;
+    align-items: center;
     font-size: 8px;
     margin-left: 2%;
     color: white;
@@ -811,6 +812,7 @@ span{
     
 span{
     display: flex;
+    align-items: center;
     font-size: 8px;
     margin-left: 2%;
     color: white;
@@ -997,7 +999,7 @@ span{
                          display: flex;
                            
                             background-color:rgba(0, 0, 0, 0.795);
-                   
+                            right: 3.5%;
                        width: 100%;
                        
                         }
