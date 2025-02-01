@@ -1,12 +1,15 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-
-.liste1{
+.liste{
     background-color: rgba(38, 79, 155, 0.582);
    color: white;
-    font-size: 25px;
-   padding: 43px;
-   width: 97%;
+    padding: 20px;
+   width: 100%;
 
 }
 
@@ -15,9 +18,9 @@
  
 a{
     color: black;
-    padding: 20px;
+    
     text-decoration: none;
-   font-size: 24px;
+   font-size: 10px;
    
 }
 
@@ -46,7 +49,7 @@ a{
     height: 400px;
     position: relative;
     top: 40px;
-    right: -250px;
+ 
     border: 5px solid black;
     border-radius: px;
     font-size: -100px;
@@ -76,7 +79,7 @@ a{
     font-size: 20px;
     position: relative;
     top:150px;
-    right: -1000px;
+   
     padding: 10px;
 
 }
@@ -88,7 +91,7 @@ a{
     position: relative;
     top: 100px;
     padding: auto;
-   right: -250px;
+
     display:block;
     font-family:"Oswald" ;
     color: rgb(66, 66, 66);

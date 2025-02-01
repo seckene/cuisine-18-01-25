@@ -12,7 +12,7 @@ html,body{
     
 
 
-.liste1{
+.liste{
     background-color: grey;
    color: white;
     font-size: 25px;
@@ -186,39 +186,51 @@ footer{
     
 
 
-    .liste1{
-        background-color:  rgb(0, 0, 0);
-       color: white;
-       
-       padding: 20px;
-       width: 100%;
-    
-    }
-    
-    
-    
-     
-    a{
-        color: white;
-        padding: 2px;
-        text-decoration: none;
-       font-size: 8px;
-       
-    }
-    .mouma{
-        
-        position: relative;
-        right: 170px;
-        top: 100px;
-        font-size: 40px;
-        color: black;
-        border-radius: 0px;
-        padding: 30px;
-        width: 700px;
-        font-family: "Sevillana";
-      text-align: center;
       
-      }
+
+
+.liste{
+    
+    background-color:black;
+    display: flex;
+    justify-content: center;
+     padding: 20px;
+     width: 100%;
+     position: fixed;
+     visibility: visible;
+    transition: 10ms;
+}
+
+
+
+ 
+a{
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+   font-size: 8px;
+   
+}
+.mouma{
+    
+    font-family: "Dancing Script";
+    position: relative;
+    right:0%;
+    top: 100px;
+    font-size: 40px;
+    color: black;
+    border-radius: 0px;
+    padding: 30px;
+ 
+  
+  text-align: center;
+  }
+
+
+  .mmm{
+    width: 100%;
+    display: flex;
+}
       #flexbox-ville{
        
         display: grid;

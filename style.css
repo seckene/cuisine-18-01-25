@@ -208,7 +208,7 @@ visibility: hidden;
     border: 5px solid black ;
    width: 100%;
    position: relative;
-   justify-content: space-between;
+   justify-content: space-around;
   
     transition: 1s;
 
@@ -657,9 +657,10 @@ html,body{
                     }
                   
                     .buloc{
-                        margin-left: 70px;
+                        margin-left: 50px;
                         font-family: "Dancing Script";
                         visibility: visible;
+                        text-decoration: underline;
                     }
 
                     p10{
@@ -673,6 +674,19 @@ html,body{
                         z-index: 1;
                     }
                     
+
+
+
+span{
+    font-size: 8px;
+    margin-left: 2%;
+    color: white;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+
+
                     .ppp{
                         position: relative;
                         top: 50px;
@@ -686,7 +700,7 @@ html,body{
                         color: black;
                         position: relative;
                     top: 50px;
-                        right: -0px;
+                        left: 8%;
                         font-size: 13px;
         text-decoration: underline;
                         width: 400px;
@@ -720,7 +734,8 @@ html,body{
                 position: relative;
                 top: -600px;
                
-               right: 10%;
+              display: flex;
+              justify-content: center;
              }
           
                        .fait{
@@ -895,9 +910,9 @@ html,body{
             
             
                             font-size: 20px;
-                            width: 300px;
+                            width: 90%;
                            position: relative;
-                          left:10%;
+                          left:5%;
                           top: -320px;
                           font-family:"Oswald";
                           display: block;
