@@ -16,9 +16,13 @@ html,body{
     background-color: grey;
    color: white;
     font-size: 25px;
-   padding: 43px;
-   width: 97%;
+   padding: 2%;
+   width: 100%;
 position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-between;
 }
 
 
@@ -26,20 +30,24 @@ position: absolute;
  
 a{
     color:white;
-    padding: 20px;
+   
     text-decoration: none;
    font-size: 25px;
    
 }
 
-
+.mmm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 
 .mouma{
     
     position: relative;
-    top: 100px;
-    right: -300px;
+    top: 130px;
+   
     font-size: 60px;
     color: black;
     border-radius: 0px;

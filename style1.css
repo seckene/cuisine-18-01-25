@@ -106,8 +106,8 @@ text-align: center;
 #flexbox-ville{
    
     display: grid;
-    grid-template-columns: repeat(6,4fr );
-    gap: 30px;
+    grid-template-columns: repeat(2,4fr );
+    gap: 20px;
     position: relative;
     top: 290px;
     right: 0px;
@@ -116,8 +116,8 @@ text-align: center;
 #ville{
 
     background-size: cover;
-    width: 85%;
-    height: 200px;
+    width: 100%;
+    height: 60vh;
     border: 5px solid white;
     border-radius: px;
     font-size: 50px;
@@ -234,16 +234,29 @@ html,body{
 
 
         
-.liste{
-    background-color:black;
-   display: flex;
-   justify-content: center;
-    padding: 20px;
+.liste{ 
+    opacity: 2000px;
+    z-index: 1;
+        position: absolute;
+      visibility: visible;
+        top: 0px;
+      width: 50%;
+     background-color: none;
+     background-color: black;
+right: 10;
+height: 100vh;
+}
+
+.osc{
+    
+    position: relative;
     width: 100%;
-    position: fixed;
-    visibility: visible;
-   transition: 10ms;
- 
+visibility: hidden;
+    display: flex;
+   flex-direction: column;
+   background-color: black;
+   
+   
  }
              .image{
                 background-image: url("https://brigade-hocare.com/info/wp-content/uploads/2024/01/location-cuisine-professionnelle-1.jpg");   
@@ -261,16 +274,25 @@ html,body{
             
              a{
                 color:white;
-                padding: 4px;
-                
-               font-size: 8px;
+                padding: 10px;
+                display: block;
+               font-size: 15px;
+               width: 100%;
               text-decoration: none;
              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             position: relative;
+            margin-top: 20%;
            
             }
 
-
+button{
+    width: 30%;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+}
             .mouma{
                 font-family: "Dancing Script";
               position: relative;
