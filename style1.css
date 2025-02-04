@@ -232,30 +232,42 @@ html,body{
 }
 
 
-
-        
+.jean{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    justify-content: space-between;
+margin: 5%;
+}
+        h6{
+            font-size: 25px;
+            font-family: "Ballet";
+            
+        }
 .liste{ 
     opacity: 2000px;
     z-index: 1;
         position: absolute;
       visibility: visible;
-        top: 0px;
-      width: 50%;
+        top: 15%;
+      width: 35%;
      background-color: none;
      background-color: black;
-right: 10;
+    text-align: center;
 height: 100vh;
+display: none;
 }
 
 .osc{
     
     position: relative;
-    width: 100%;
+
 visibility: hidden;
     display: flex;
    flex-direction: column;
    background-color: black;
-   
+
    
  }
              .image{
@@ -270,20 +282,26 @@ visibility: hidden;
                 border: 2px solid black;
                 
                 }
+
+                .plond{
+                    margin-top: 60%;
+                    display: block;
+                    width: 100%;
+                }
             
             
-             a{
-                color:white;
-                padding: 10px;
-                display: block;
-               font-size: 15px;
-               width: 100%;
-              text-decoration: none;
-             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            position: relative;
-            margin-top: 20%;
-           
-            }
+                a{
+                    color:white;
+                   display: flex;
+              padding: 10px;
+               justify-content: center;
+                align-items: center;
+                   font-size: 10px;
+                  text-decoration: none;
+                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              margin-top: 15%;
+                   
+                }
 
 button{
     width: 30%;
@@ -307,7 +325,10 @@ button{
             text-align: center;
             }
             
-
+svg{
+    margin-top: 3%;
+    
+}
 .mmm{
     width: 100%;
     display: flex;

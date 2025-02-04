@@ -668,11 +668,13 @@ html,body{
 span{
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 8px;
     margin-left: 2%;
     color: white;
     background-color: gray;
-    border: 1px solid black;
+    border: none;
+    width: 20%;
 }
 
 
@@ -727,6 +729,14 @@ span{
               display: flex;
               justify-content: center;
              }
+
+             .toux{
+                display: flex;
+                justify-content: space-between;
+               
+            }
+            
+
           
                        .fait{
                         visibility: hidden;
@@ -765,6 +775,10 @@ span{
     html,body{
         overflow-x: hidden !important;
       
+
+
+
+
     }
     
     
@@ -793,16 +807,23 @@ span{
                             
                             }
                         
-    
+    .toux{
+        display: flex;
+        justify-content: space-between;
+       
+    }
     
 span{
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 8px;
     margin-left: 2%;
     color: white;
     background-color: gray;
-    border: 1px solid black;
+    border:none;
+    width: 20%;
+  
 }
 
     
@@ -831,7 +852,7 @@ span{
                       padding: 10px;
                        justify-content: center;
                         align-items: center;
-                           font-size: 10px;
+                           font-size: 12px;
                           text-decoration: none;
                          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                       

@@ -1,19 +1,10 @@
-
+const svg =document.querySelector("svg");
 const liste=document.querySelector(".liste");
-window.addEventListener("scroll",()=>{
-    console.log(window.scrollY);
-    if (window.scrollY>10) {
-        liste.style.visibility="hidden";
-      
+const btn=document.querySelector("button")
+svg.addEventListener("click",()=>{
+liste.style.display="flex"
+})
 
-    }
-
-    else{   
-        
-        window.scrollY>160
-        liste.style.visibility="visible";
-         liste.style.top="1px";
-         
-    }
-});
-
+btn.addEventListener("click",()=>{
+    liste.style.display="none"
+})
